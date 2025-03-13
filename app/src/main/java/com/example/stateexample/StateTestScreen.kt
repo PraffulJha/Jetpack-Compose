@@ -45,7 +45,7 @@ fun StateTestScreen(viewmodel: StateViewmodel){
                 email = it
             }, email,
             password, onPasswordChange = {
-                viewmodel.updateName(password)
+                viewmodel.updateName(it)
             })
     }
 }
@@ -85,6 +85,6 @@ fun MyTextField(name : String,onNameChange : (String) -> Unit, onEmailChange : (
         onValueChange = {
             onPasswordChange(it)
         },
-        label = { Text(text = "Enter Email") }
+        label = { Text(text = "Enter Password") }
     )
 }
