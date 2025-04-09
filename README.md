@@ -1,7 +1,3 @@
-Awesome! Here's a clean and structured **Markdown version** of your Kotlin Coroutine notes — ready to copy-paste directly into **Notion** (or any Markdown-friendly platform like Obsidian, GitHub, etc).
-
----
-
 ## 🧠 Kotlin Coroutines: `async`, `launch`, `await`, and `Unit` Pitfalls
 
 ---
@@ -186,9 +182,3 @@ Caught: Async fail be
 - Don't let `println()` be the last line if you expect a return.
 - Coroutine result = **last expression** in lambda.
 - Handle exceptions using `try-catch` around `join()` or `await()`.
-
----
-
-You can paste this whole thing into a Notion page, and it will automatically style the tables and code blocks perfectly.
-
-Want me to auto-publish it to your Notion using an integration, or you're cool with pasting?
